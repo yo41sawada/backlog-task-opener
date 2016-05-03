@@ -1,0 +1,11 @@
+{
+    "name": "Backlog Task Opener",
+    "version": "1.0.0",
+    "author": "yoshihisa.wada@flect.co.jp",
+    "manifest_version": 2,
+    "description": "Useful Backlog Project. Quick open to tasks.",
+    "content_scripts": [{
+        "matches": ["https://*.backlog.jp/*"],
+        "js": ["jquery.min.js","backlog-task-opener.js"]
+    }]
+}
